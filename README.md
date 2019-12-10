@@ -8,6 +8,19 @@ Codelab to learn about how Service Workers help us to empower our websites keepi
 
 In the master branch you will have the base project without any Service Worker implementation, you will find each of the steps to follow on different branches.
 
+## Steps
+
+- 1. Service Worker Registration
+![Service Worker Registration](./.readme-static/1-service-worker-registration.png)
+
+> Service Worker works only on **HTTPS** connection or **localhost**. Not on **file://**
+
+> Visual Studio Code **Live Server** Extension is a good option for testing.
+
+> Service Workers file normally lives at the top level of the app (next to index.html) to cover the whole app.
+
+> Service Workers cannot have a scope above its own path but you can specify to work just on a below path.
+
 ## Author & Credits
 
 - [William Velazquez](https://williamvelazquez.com/)

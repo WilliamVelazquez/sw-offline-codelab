@@ -1,0 +1,1 @@
+console.log('Installing Service Worker...');
