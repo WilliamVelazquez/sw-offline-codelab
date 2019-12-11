@@ -1,9 +1,7 @@
 console.log('Verifying Service Worker Support on the Browser...');
-
 if('serviceWorker' in navigator) {
 	navigator.serviceWorker.register(
 		'./sw.js'
-		//,{ scope: '/app/'}
 	)
 	.then((registration)=>{
 		console.log('Service Worker Registered!')
