@@ -47,6 +47,12 @@ The network ask for the resources and respond with http status code 304(Not Modi
 We can have a look to all the resources at the Cache Storage on the Application tab.
 > The cache will have the name we definied on the sw.js file.
 
+- 4. Working Offline
+![Working Offline](./.readme-static/4-working-offline.png)
+
+We handle the fetch event and verify if we ask for the resource previously. If so, we serve it from cache, otherwise we ask for it from the network.
+> We aboard **Cache First Strategy** to always use the cached files in place of the network. Since files are stored locally, this will gives **Instant loading** and **Offline support**.
+
 ## Author & Credits
 
 - [William Velazquez](https://williamvelazquez.com/)
